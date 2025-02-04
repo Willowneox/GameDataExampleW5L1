@@ -9,7 +9,7 @@ public class Player : MonoBehaviour
     //
     // but what if these items never appear on-screen, or appear and disappear in UI?
     // does it make sense for Item to be a MonoBehaviour if it's only representing data and not behavior?
-    [SerializeField] private List<InventoryItem> _inventory;
+    [SerializeField] private List<Item> _inventory;
 }
 
 public class InventoryItem {
